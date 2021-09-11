@@ -1,374 +1,383 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Noto Serif", serif;
 }
-/*navigation start*/
-a.navbar-brand img {
-    width: 180px;
+body {
+    background-color: #f1f1f1;
 }
-button#dropdownMenuButton1 {
-    font-size: 34px;
+/*nav area start*/
+header#header {
+    background: linear-gradient(to top, #2f5e76, #314755);
+    height: 310px;
 }
-button.btn.btn-primary.checkbtn {
+.row.logo_text {
+}
+
+.logobox img {
+    width: 448px;
+    margin-left: 20px;
+}
+.textbox {
+    text-align: right;
+    color: white;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.textbox h4 {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.textbox h2 {
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.textbox p {
+    font-size: 13px;
+    font-weight: 400;
+}
+.logobox {
+    padding-top: 20px;
+    margin-left: 0px;
+}
+
+/*nav area end*/
+/*form area start*/
+
+.headertext p {
+    text-align: center;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+}
+section.formsection {
+    margin-top: -170px;
+}
+.formandimage {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 1em;
+    box-shadow: 0px 0px 12px 1px rgb(0 0 0 / 32%);
+}
+.anothertittle p {
+    text-align: center;
     font-size: 24px;
-    font-weight: 600;
-    border: none;
-    padding: 0px 8px;
-    width: 293px;
-    border-radius: 20px 0px;
-    margin-right: 22px;
-    background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-    height: 50px;
-    margin-top: 7px;
-    transition: 0.4s;
-}
-button.btn.btn-primary.checkbtn:hover {
-    background-image: linear-gradient(to right, #27a8e0cf, #1e75bb);
-}
-nav.navbar.navbar-light.mainnav {
-    box-shadow: 0px 4px 9px #c0d9ec;
-    background: white;
-}
-.dropdown-menu[data-bs-popper] {
-    top: 114%;
-    left: -150px;
-    margin-top: 0.125rem;
-}
-a.dropdown-item {
-    text-align: center;
-    font-weight: 600;
-    padding-top: 13px;
-}
-
-/*navigation end*/
-
-/*banner area start*/
-section.bannerarea {
-    background-image: url(../image/bg.jpg);
-    width: 100%;
-    height: 610px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.headingtxt {
-    text-align: center;
-    color: white;
-}
-
-.headingtxt h1 {
-    font-weight: 600;
-    font-size: 42px;
-    padding-top: 110px;
-    padding-bottom: 55px;
-}
-.headingtxt h1 span {
-    color: black;
-}
-.headingtxt p {
-    color: black;
-    font-size: 23px;
-    line-height: 44px;
-    font-weight: 600;
-}
-.headingtxt p i {
-    color: white;
-}
-button.secondcheckbtn {
-    font-size: 24px;
-    font-weight: 600;
-    border: none;
-    padding: 0px 8px;
-    width: 293px;
-    border-radius: 20px 0px;
-    height: 50px;
-    transition: 0.4s;
-    background: white;
-    margin-top: 42px;
-    color: #1e75bb;
-}
-button.secondcheckbtn:hover {
-    background: black;
-    color: white;
-}
-/*banner area end*/
-
-/*aboutsection start*/
-.txtbox {
-    width: 718px;
-    background: #27a8e0;
-    color: white;
-    border-radius: 20px 0px;
-    position: relative;
-    z-index: 20;
-    box-shadow: 0px 0px 7px #1e75bb;
-}
-.txtbox p {
-    color: white;
-    font-weight: 600;
-    padding-left: 53px;
-    padding-top: 40px;
-    padding-bottom: 39px;
-    line-height: 27px;
-}
-.txtbox p span {
-    color: black;
-}
-.imgbox {
-    float: right;
-    margin-top: -440px;
-    z-index: 2;
-}
-
-.imgbox img {
-    z-index: 6;
-}
-section.about {
-    padding-top: 128px;
-    padding-bottom: 130px;
-}
-
-/*about section end*/
-
-/*four coin section start*/
-section.fourcoin {
-    background: #f9eeee;
-}
-.coinbox {
-    text-align: center;
-    padding-top: 58px;
-    padding-bottom: 58px;
-}
-
-.coinbox p {
-    font-size: 18px;
-    font-weight: bold;
-    padding-top: 30px;
-}
-.col-xs-12.col-sm-6.col-md-3.coinno2 {
-    background: #27a8e0;
-    color: white;
-}
-.col-xs-12.col-sm-6.col-md-3.coinno3 {
-    background: #1e75bb;
-    color: white;
-}
-
-/*four coin end*/
-
-/*peace section start*/
-.peaceheading {
-    font-size: 31px;
-    color: #1e75bb;
-    text-align: center;
-}
-
-.peaceheading h2 {
-    font-weight: 600;
-}
-section.peacesection {
-    padding-top: 130px;
-}
-.peacebox {
-    text-align: center;
-    box-shadow: 0px 0px 10px #c0d9ec;
-    margin-top: 50px;
-}
-
-.peacebox img {
-    margin-top: -21px;
-    padding-bottom: 14px;
-}
-
-.peacebox p {
-    font-size: 17px;
     font-weight: 700;
+    padding-top: 25px;
     padding-bottom: 25px;
 }
-.row.peacerow {
-    margin-top: 50px;
-}
-button.checkbtn {
-    font-size: 24px;
-    font-weight: 600;
-    border: none;
-    padding: 0px 8px;
-    width: 293px;
-    border-radius: 20px 0px;
-    background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-    height: 50px;
-    transition: 0.4s;
-    color: white;
-}
-button.checkbtn:hover {
-    background-image: linear-gradient(to right, #27a8e0cf, #1e75bb);
-}
-.peacebtn {
-    text-align: center;
-    padding-top: 30px;
-}
-button#peacecheck {
-    margin-bottom: 50px;
+
+.anothertittle {
+    background: #d9dfed;
+    border-radius: 5px 5px 0px 0px;
 }
 
-/*peace section end*/
+.row.imgrow {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
 
-/*example section start*/
-.exampleheading h1 {
-    text-align: center;
-    font-size: 33px;
-    font-family: "Montserrat";
-    font-weight: 600;
-    color: #1e75bb;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-section.examplesec {
-    background: #f9eeee;
-}
-.exampletxt h1 {
-    font-size: 33px;
-    font-weight: 600;
-    color: white;
-    padding-top: 45px;
+.box.box2 {
     text-align: center;
 }
 
-.exampletxt {
-}
-.exmlebox p {
-    font-family: "Montserrat";
-    font-size: 26px;
-    font-weight: 600;
-    padding-left: 65px;
-    color: white;
-    line-height: 55px;
-}
-.exmlebox p span {
-    color: black;
-    font-weight: 800;
-}
-.row.exmrow {
-    background: #1e75bb;
-    border-radius: 10px 10px 0px 0px;
-    box-shadow: 0px 0px 10px #c0d9ec;
-    padding-bottom: 30px;
-}
-.exmlebox {
-    padding-top: 50px;
-}
-.imgheading h2 {
-    color: #1e75bb;
-    font-size: 27px;
-    font-weight: 600;
+.box.box3 {
     text-align: center;
-    padding-top: 55px;
-    padding-bottom: 55px;
 }
-
-.imgheading span {
-    color: black;
-}
-.exmimgbox1 h2 {
-    font-size: 38px;
-    font-weight: 600;
-    color: #1e75bb;
-    line-height: 60px;
-}
-
-.exmimgbox1 h2 span {
-    color: black;
-}
-.exmimgbox1 p {
-    color: #1e75bb;
-}
-.row.exrow2 {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.exmimgbox1.blackimgbox {
+.box.box4 {
     text-align: right;
 }
-.lastp {
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 30px;
+.box {
+    padding-bottom: 45px;
+    padding-top: 38px;
+}
+.row.nextrow {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.formbox h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2942;
+    padding-bottom: 15px;
+}
+.fiedgroup.full_width input {
+    width: 570px;
+    height: 52px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    border: 1px solid #bfbfbf;
+}
+label {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+input#propertyvalue {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fieldgroup {
+    width: 270px;
+}
+.fieldgroup input {
+    width: 100%;
+    height: 52px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    border: 1px solid #bfbfbf;
 }
 
-/*example section end*/
-
-/*type section start*/
-.typeheading h1 {
-    font-size: 38px;
-    font-weight: 600;
-    color: #1e75bb;
-    padding-top: 78px;
-    padding-bottom: 60px;
-    text-align: center;
+.post_date {
+    display: flex;
 }
-.typebox {
-    box-shadow: 0px 0px 12px #c0d9ec;
-    border-radius: 10px;
-    background-color: #27a8e0;
+.fieldgroup.datediv {
+    margin-left: 30px;
+}
+input#postvalue {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input#dateofbirth {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.footerbutton button {
+    padding: 1em 1.5em;
+    background-color: #e28e07;
+    border-radius: 3px;
+    font-size: 1em;
+    border: none;
     color: white;
+    display: flex;
+    align-items: center;
+}
+.footerbutton button:hover {
+    background-color: #c97e06;
+}
+.footerbutton {
+    float: right;
+    margin-right: 32px;
+}
+input#First_Name {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input#lastName {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input#contactNumber {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input#emailAddress {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.col-xs-12.col-sm-7.formleftside {
+    border-right: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+.text {
+    width: 200px;
+    padding-left: 34px;
+}
+
+.imgandtxt {
+    display: flex;
+    margin-right: 20px;
+}
+
+.text h4 {
+    padding-top: 35px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.client {
+    margin-top: 136px;
+    padding-bottom: 57px;
+}
+
+.text p {
+    font-size: 18px;
+}
+.review p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 0px;
+    padding: 0em;
+}
+
+.review {
+    margin-top: 1.5em;
+    padding: 20px;
+    background-color: #e6e6e6;
+    border-left: 2px solid #e28e07;
+    margin-right: 20px;
+}
+.footerbutton i {
+    padding-left: 10px;
+}
+.imgbox {
+    padding-left: 16px;
+}
+.imgbox h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+.descrip_txt p img {
+    width: 30px;
+    margin-right: 0.5em;
+}
+
+.descrip_txt {
+    padding-top: 17px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+}
+
+.descrip_txt p {
+    font-size: 16px;
+}
+.checkicon {
+    width: 27px;
+    align-items: center;
+}
+
+.ptext p {
+    padding-left: 15px;
+}
+
+.checkicon img {
+    width: 30px;
+    padding-top: 5px;
+}
+.imglasttittle h3 {
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.imglasttittle img {
+    width: 53%;
+    margin: 1em auto;
+}
+.img_fac {
     text-align: center;
-    margin: 38px 20px;
+}
+.imglasttittle p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.typebox p {
-    font-size: 27px;
-    font-weight: 500;
-    padding-bottom: 30px;
-}
+/*form area end*/
+/*faq section start*/
 
-.typebox img {
-    margin-top: -40px;
+.accordion .icon {
+    width: 15px;
+    margin-right: 0.75em;
+    background-image: url(../image/add_box.svg);
+    background-repeat: no-repeat;
+    height: 15px;
+}
+.accordion {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.accordion h2 {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0;
+}
+.panel {
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.4s ease-in;
+}
+section.faq {
+    margin-top: 45px;
+}
+.faqtittle h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2942;
     padding-bottom: 11px;
 }
-.typebtn {
-    text-align: center;
-    padding-bottom: 40px;
+.panel p {
+    font-weight: 400;
+    font-size: 16px;
+    width: 74%;
+    color: #000000;
+}
+.panel.secondpanel {
+    transition: all 0.4s ease-in !important;
 }
 
-/*type section end*/
-/*textsection start*/
-.textfootbox p {
-    font-weight: 500;
-    line-height: 30px;
-    padding-bottom: 50px;
+/*faq section end*/
+/*contact section start*/
+.contactbox {
+    text-align: center;
+    margin-top: 27px;
+    margin-bottom: 27px;
 }
-/*textsection end*/
-/*footer start*/
-section.footer {
-    background-color: #1e75bb;
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 26px;
+
+.contactbox p {
+    margin: 0;
 }
-.footerbox a {
+.contactbox a {
+    font-size: 2em;
+    color: #e28e07;
     text-decoration: none;
-    color: white;
-    font-family: "Montserrat";
-    font-size: 19px;
-    font-weight: bold;
-    transition: 0.4s;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
-.footerbox a:hover {
+
+.contactbox a:hover {
+    text-decoration: underline;
+}
+
+/*contact section end*/
+/*footer area start*/
+
+footer.footer {
+    background-color: #cccccc;
+}
+.footerimgbox img {
+    width: 267px;
+}
+.footertextbox p {
+    margin: 0;
+    font-size: 13px;
+    color: #808080;
+}
+.footertextbox a {
+    font-size: 13px;
+    color: #808080;
+}
+
+.footertextbox a:hover {
     color: black;
 }
-.footerboxbutton button {
-    border: none;
-    width: 200px;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif;
-    border-radius: 20px 0px 20px 0px;
-    background-image: linear-gradient(to right, #ffffff, #27a8e0cf);
-    padding: 5px 5px;
-    transition: 0.4s;
+.row.footerrow {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    align-items: center;
 }
-.footerboxbutton button:hover {
-    background: #27a8e0cf;
-    color: white;
-}
-/*footer end*/
+
+/*footer area end*/

@@ -1,672 +1,640 @@
-/*1024px*/
-@media only screen and (max-width: 1024px) {
-    .exmlebox p {
-        font-family: "Montserrat";
-        font-size: 23px;
-        font-weight: 600;
-        padding-left: 54px;
-        color: white;
-        line-height: 55px;
-    }
+/*1024-1440 px*/
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+    /*.logobox {
+    padding-top: 20px;
+    margin-left: 0px;
 }
-/*992 px*/
-@media only screen and (max-width: 992px) {
-    button.btn.btn-primary.checkbtn {
-        font-size: 21px;
-        font-weight: 600;
-        border: none;
-        padding: 0px 8px;
-        width: 260px;
-        border-radius: 20px 0px;
-        margin-right: 10px;
-        background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-        height: 45px;
-        margin-top: 9px;
-        transition: 0.4s;
-    }
-    .exmlebox p {
-        font-family: "Montserrat";
-        font-size: 22px;
-        font-weight: 600;
-        padding-left: 55px;
-        color: white;
-        line-height: 55px;
-    }
-}
-
-/*768 px*/
-@media only screen and (max-width: 768px) {
-    button.btn.btn-primary.checkbtn {
-        font-size: 20px;
-        font-weight: 600;
-        border: none;
-        padding: 0px 8px;
-        width: 251px;
-        border-radius: 20px 0px;
-        margin-right: 10px;
-        background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-        height: 42px;
-        margin-top: 10px;
-        transition: 0.4s;
-    }
-    button#dropdownMenuButton1 {
-        font-size: 27px;
-    }
-    .headingtxt h1 {
-        font-weight: 600;
-        font-size: 34px;
-        padding-top: 110px;
-        padding-bottom: 55px;
-    }
-    .headingtxt p {
-        color: black;
-        font-size: 20px;
-        line-height: 44px;
-        font-weight: 600;
-    }
-    button.secondcheckbtn {
-        font-size: 22px;
-        font-weight: 600;
-        border: none;
-        padding: 0px 8px;
-        width: 279px;
-        border-radius: 20px 0px;
-        height: 46px;
-        transition: 0.4s;
-        background: white;
-        margin-top: 42px;
-        color: #1e75bb;
-    }
-    .txtbox p {
-        color: white;
-        font-weight: 600;
-        padding-left: 18px;
-        padding-top: 40px;
-        padding-bottom: 39px;
-        padding-right: 15px;
-        line-height: 27px;
-        font-size: 16px;
-    }
-    .txtbox {
-        width: 690px;
-        background: #27a8e0;
-        color: white;
-        border-radius: 20px 0px;
-        position: relative;
-        z-index: 20;
-        box-shadow: 0px 0px 7px #1e75bb;
-    }
-    .imgbox {
-        float: none;
-        margin-top: 0px;
-        z-index: 2;
-        text-align: center;
-    }
-    .peacebox p {
-        font-size: 13px;
-        font-weight: 700;
-        padding-bottom: 25px;
-    }
-    .exmlebox p {
-        font-family: "Montserrat";
-        font-size: 19px;
-        font-weight: 600;
-        padding-left: 23px;
-        color: white;
-        line-height: 51px;
-    }
-    .exmimgbox1 h2 {
-        font-size: 29px;
-        font-weight: 600;
-        color: #1e75bb;
-        line-height: 60px;
-    }
-    .typebox p {
-        font-size: 20px;
-        font-weight: 500;
-        padding-bottom: 30px;
-    }
-    button#fourthbtn {
-        width: 230px;
-        font-size: 20px;
-    }
-    .footerbox a {
-        text-decoration: none;
-        color: white;
-        font-family: "Montserrat";
-        font-size: 15px;
-        font-weight: bold;
-        transition: 0.4s;
-    }
-    .footerboxbutton button {
-        border: none;
-        width: 149px;
-        font-size: 14px;
-        font-weight: 600;
-        font-family: "Montserrat", sans-serif;
-        border-radius: 20px 0px 20px 0px;
-        background-image: linear-gradient(to right, #ffffff, #27a8e0cf);
-        padding: 5px 5px;
-        transition: 0.4s;
-    }
-}
-/*600px*/
-@media only screen and (min-width: 577px) and (max-width: 767px) {
-    .txtbox {
-        width: 526px;
-        background: #27a8e0;
-        color: white;
-        border-radius: 20px 0px;
-        position: relative;
-        z-index: 20;
-        box-shadow: 0px 0px 7px #1e75bb;
-    }
-}
-/*576px*/
-@media only screen and (max-width: 576px) {
-    button.btn.btn-primary.checkbtn {
-        font-size: 17px;
-        font-weight: 600;
-        border: none;
-        padding: 0px 8px;
-        width: 195px;
-        border-radius: 20px 0px;
-        margin-right: 10px;
-        background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-        height: 38px;
-        margin-top: 6px;
-        transition: 0.4s;
-    }
-    a.navbar-brand img {
-        width: 155px;
-    }
-    .headingtxt h1 {
-        font-weight: 600;
-        font-size: 29px;
-        padding-top: 110px;
-        padding-bottom: 55px;
-    }
-    .headingtxt p {
-        color: black;
-        font-size: 18px;
-        line-height: 44px;
-        font-weight: 600;
-    }
-    .txtbox {
-        width: 505px;
-        background: #27a8e0;
-        color: white;
-        border-radius: 20px 0px;
-        position: relative;
-        z-index: 20;
-        box-shadow: 0px 0px 7px #1e75bb;
-    }
-    .txtbox p {
-        color: white;
-        font-weight: 600;
-        padding-left: 20px;
-        padding-top: 40px;
-        padding-bottom: 39px;
-        line-height: 27px;
-        font-size: 13px;
-    }
-    .peacebox p {
-        font-size: 13px;
-        font-weight: 700;
-        padding-bottom: 25px;
-    }
-    .exmlebox p {
-        font-family: "Montserrat";
-        font-size: 15px;
-        font-weight: 600;
-        padding-left: 5px;
-        color: white;
-        line-height: 43px;
-    }
-    .exmimgbox1 h2 {
-        font-size: 26px;
-        font-weight: 600;
-        color: #1e75bb;
-        line-height: 54px;
-    }
-    .typebox img {
-        margin-top: -28px;
-        padding-bottom: 11px;
-        width: 72px;
-    }
-    .typebox p {
-        font-size: 16px;
-        font-weight: 500;
-        padding-bottom: 30px;
-    }
-    .footerbox {
-        text-align: center;
-        padding-bottom: 19px;
-    }
-
-    .footerboxbutton {
-        text-align: center;
-    }
-}
-/*481*/
-@media only screen and (min-width: 481px) and (max-width: 534px) {
-    .txtbox {
-        width: 455px;
-        background: #27a8e0;
-        color: white;
-        border-radius: 20px 0px;
-        position: relative;
-        z-index: 20;
-        box-shadow: 0px 0px 7px #1e75bb;
-    }
-    .imgbox img {
-        z-index: 6;
-        width: 402px;
-    }
-}
-/*480px*/
-@media only screen and (max-width: 480px) {
-    a.navbar-brand img {
-        width: 145px;
-    }
-    button#dropdownMenuButton1 {
-        font-size: 26px;
-    }
-    button.btn.btn-primary.checkbtn {
-        font-size: 16px;
-        font-weight: 600;
-        border: none;
-        padding: 0px 0px;
-        width: 189px;
-        border-radius: 20px 0px;
-        margin-right: 6px;
-        background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-        height: 38px;
-        margin-top: 8px;
-        transition: 0.4s;
-    }
-    a.navbar-brand img {
-        width: 125px;
-    }
-    button.btn.btn-primary.checkbtn {
-        font-size: 14px;
-        font-weight: 600;
-        border: none;
-        padding: 0px 0px;
-        width: 170px;
-        border-radius: 20px 0px;
-        margin-right: 6px;
-        background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-        height: 38px;
-        margin-top: 8px;
-        transition: 0.4s;
-    }
-    .headingtxt h1 {
-        font-weight: 600;
-        font-size: 26px;
-        padding-top: 110px;
-        padding-bottom: 55px;
-    }
-    .headingtxt p {
-        color: black;
-        font-size: 17px;
-        line-height: 44px;
-        font-weight: 600;
-    }
-    button.secondcheckbtn {
-        font-size: 19px;
-        font-weight: 600;
-        border: none;
-        padding: 0px 8px;
-        width: 226px;
-        border-radius: 20px 0px;
-        height: 46px;
-        transition: 0.4s;
-        background: white;
-        margin-top: 42px;
-        color: #1e75bb;
-    }
-    .txtbox {
-        width: 436px;
-        background: #27a8e0;
-        color: white;
-        border-radius: 20px 0px;
-        position: relative;
-        z-index: 20;
-        box-shadow: 0px 0px 7px #1e75bb;
-    }
-    .txtbox p {
-        color: white;
-        font-weight: 600;
-        padding-left: 20px;
-        padding-top: 40px;
-        padding-bottom: 39px;
-        line-height: 23px;
-        font-size: 13px;
-    }
-    .imgbox img {
-        z-index: 6;
-        width: 350px;
-    }
-    .dropdown-menu[data-bs-popper] {
-        top: 114%;
-        left: -179px;
-        margin-top: 0.125rem;
-    }
-    .exmlebox {
-        padding-top: 0px;
-        margin-bottom: 0px;
-    }
-    .exmlebox p {
-        font-family: "Montserrat";
-        font-size: 20px;
-        font-weight: 600;
-        padding-left: 63px;
-        color: white;
-        line-height: 43px;
-    }
-    .exampletxt h1 {
-        font-size: 33px;
-        font-weight: 600;
-        color: white;
-        padding-top: 45px;
-        text-align: center;
-        padding-bottom: 30px;
-    }
-    .exmimgbox1 {
-        text-align: center;
-    }
-    .exmimgbox1.blackimgbox {
-        text-align: center;
-        padding-top: 30px;
-    }
-}
-
-/*425px*/
-@media only screen and (max-width: 425px) {
-    .txtbox {
-        width: 380px;
-        background: #27a8e0;
-        color: white;
-        border-radius: 20px 0px;
-        position: relative;
-        z-index: 20;
-        box-shadow: 0px 0px 7px #1e75bb;
-    }
-    section.bannerarea {
-        background-image: url(../image/bg.jpg);
-        width: 100%;
-        height: 650px;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .peacebox p {
-        font-size: 16px;
-        font-weight: 700;
-        padding-bottom: 25px;
-    }
-    .exmlebox p {
-        font-family: "Montserrat";
-        font-size: 20px;
-        font-weight: 600;
-        padding-left: 40px;
-        color: white;
-        line-height: 43px;
-    }
-    .exmlebox {
-        padding-top: 0px;
-    }
-    .exampletxt h1 {
-        font-size: 26px;
-        font-weight: 600;
-        color: white;
-        padding-top: 45px;
-        text-align: center;
-        padding-bottom: 35px;
-    }
-    .exampleheading h1 {
-        text-align: center;
-        font-size: 30px;
-        font-family: "Montserrat";
-        font-weight: 600;
-        color: #1e75bb;
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-}
-/*376px*/
-@media only screen and (min-width: 376px) and (max-width: 424px){
-    button.btn.btn-primary.checkbtn {
-    font-size: 14px;
-    font-weight: 600;
-    border: none;
-    padding: 0px 0px;
-    width: 159px;
-    border-radius: 10px 0px;
-    margin-right: 8px;
-    background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-    height: 38px;
-    margin-top: 8px;
-    transition: 0.4s;
-}
-button#dropdownMenuButton1 {
-    font-size: 26px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-.txtbox {
-    width: 347px;
-    background: #27a8e0;
+.textbox {
+    text-align: right;
     color: white;
-    border-radius: 20px 0px;
-    position: relative;
-    z-index: 20;
-    box-shadow: 0px 0px 7px #1e75bb;
+    margin-right: 0px;
+    padding-top: 20px;
+}
+.logobox img {
+    width: 380px;
+    margin-left: 0px;
+}
+.textbox h4 {
+    font-size: 17px;
+    font-weight: 400;
+}
+.textbox h2 {
+    font-size: 26px;
+    font-weight: 400;
+}
+.textbox p {
+    font-size: 12px;
+    font-weight: 400;
+}*/
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 474px;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    img.headingimg {
+        width: 325px;
+    }
+
+    /*formssection end*/
 }
 
-}
-/*375px*/
-@media only screen and (max-width: 375px) {
-    button.btn.btn-primary.checkbtn {
-        font-size: 14px;
-        font-weight: 600;
-        border: none;
-        padding: 0px 0px;
-        width: 161px;
-        border-radius: 10px 0px;
-        margin-right: 7px;
-        background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-        height: 35px;
-        margin-top: 8px;
-        transition: 0.4s;
+/*992-1024 px*/
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .logobox img {
+        width: 365px;
+        margin-left: 0px;
     }
-    button#dropdownMenuButton1 {
+    .logobox {
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+    .textbox {
+        text-align: right;
+        color: white;
+        margin-right: 0px;
+        padding-top: 20px;
+    }
+
+    .textbox h2 {
         font-size: 26px;
-        padding-right: 0px;
-        padding-left: 0px;
+        font-weight: 400;
     }
-    .dropdown-menu[data-bs-popper] {
-        top: 114%;
-        left: -153px;
-        margin-top: 0.125rem;
+    .textbox h4 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .textbox p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .headertext p {
+        text-align: center;
+        font-style: italic;
+        font-size: 26px;
+        font-weight: 400;
+        color: white;
+    }
+    .anothertittle p {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 474px;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    img.headingimg {
+        width: 325px;
+    }
+
+    /*formssection end*/
+
+    /*faq start*/
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s ease-in;
+        margin-bottom: 15px;
+    }
+    /*faq end*/
+}
+/*768-992 px*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .logobox {
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+    .logobox img {
+        width: 337px;
+        margin-left: 0px;
+    }
+    .textbox {
+        text-align: right;
+        color: white;
+        margin-right: 0px;
+        padding-top: 20px;
+    }
+    .textbox h2 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .textbox h4 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .textbox p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .headertext p {
+        text-align: center;
+        font-style: italic;
+        font-size: 22px;
+        font-weight: 400;
+        color: white;
+    }
+    .anothertittle p {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .box img {
+        width: 120px;
+    }
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 332px;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    img.headingimg {
+        width: 225px;
+    }
+
+    /*formssection end*/
+    /*faq start*/
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s ease-in;
+        margin-bottom: 15px;
+    }
+    /*faq end*/
+    /*footer start*/
+    .footerimgbox img {
+        width: 213px;
+    }
+    /*footer end*/
+}
+/*576-768 px*/
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .logobox {
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+    .logobox img {
+        width: 253px;
+        margin-left: 0px;
+    }
+    .textbox {
+        text-align: right;
+        color: white;
+        margin-right: 0px;
+        padding-top: 20px;
+    }
+    .textbox h4 {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .textbox h2 {
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .textbox p {
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .headertext p {
+        text-align: center;
+        font-style: italic;
+        font-size: 19px;
+        font-weight: 400;
+        color: white;
+    }
+    .anothertittle p {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .box.box3 {
+        text-align: left;
+    }
+    .box.box2 {
+        text-align: right;
+    }
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 227px;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    img.headingimg {
+        width: 149px;
+    }
+    .formbox h2 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #1f2942;
+        padding-bottom: 15px;
+    }
+    .imgbox h2 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+    .descrip_txt p {
         font-size: 12px;
     }
-    .headingtxt h1 {
-        font-weight: 600;
-        font-size: 20px;
-        padding-top: 110px;
-        padding-bottom: 55px;
-        line-height: 28px;
-    }
-    .headingtxt p {
-        color: black;
-        font-size: 13px;
-        line-height: 33px;
-        font-weight: 600;
-    }
-    .txtbox {
-        width: 343px;
-        background: #27a8e0;
-        color: white;
-        border-radius: 20px 0px;
-        position: relative;
-        z-index: 20;
-        box-shadow: 0px 0px 7px #1e75bb;
-    }
-    .txtbox p {
-        color: white;
-        font-weight: 600;
-        padding-left: 10px;
-        padding-right: 0px;
-        padding-top: 40px;
-        padding-bottom: 39px;
-        line-height: 23px;
-        font-size: 11px;
-    }
-    .imgbox img {
-        z-index: 6;
-        width: 305px;
-    }
-    .exmlebox p {
-        font-family: "Montserrat";
-        font-size: 20px;
-        font-weight: 600;
-        padding-left: 23px;
-        color: white;
-        line-height: 43px;
-    }
-    button#peacecheck {
-        margin-bottom: 50px;
-        width: 223px;
-        font-size: 20px;
-    }
-}
-
-/*320px*/
-@media only screen and (max-width: 320px) {
-    button.btn.btn-primary.checkbtn {
-        font-size: 11px;
-        font-weight: 600;
-        border: none;
-        padding: 0px 0px;
-        width: 120px;
-        border-radius: 10px 0px;
-        margin-right: 10px;
-        background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-        height: 26px;
-        margin-top: 9px;
-        transition: 0.4s;
-    }
-    button#dropdownMenuButton1 {
-        font-size: 20px;
-        padding-right: 0px;
-    }
-    a.navbar-brand img {
-        width: 100px;
-    }
-    .dropdown-menu[data-bs-popper] {
-        top: 114%;
-        left: -125px;
-        margin-top: 0.125rem;
-        font-size: 10px;
-    }
-    button.secondcheckbtn {
-        font-size: 17px;
-        font-weight: 600;
-        border: none;
-        padding: 0px 8px;
+    .text {
         width: 200px;
-        border-radius: 20px 0px;
-        height: 38px;
-        transition: 0.4s;
-        background: white;
-        margin-top: 42px;
-        color: #1e75bb;
+        padding-left: 15px;
     }
-    .txtbox {
-        width: 282px;
-        background: #27a8e0;
-        color: white;
-        border-radius: 20px 0px;
-        position: relative;
-        z-index: 20;
-        box-shadow: 0px 0px 7px #1e75bb;
-    }
-    .imgbox img {
-        z-index: 6;
-        width: 270px;
-    }
-    .dropdown-menu[data-bs-popper] {
-        top: 114%;
-        left: -140px;
-        margin-top: 0.125rem;
-        font-size: 10px;
-    }
-    .coinbox p {
+    .text p {
         font-size: 16px;
-        font-weight: bold;
-        padding-top: 30px;
     }
-    button#peacecheck {
-        margin-bottom: 50px;
-        width: 196px;
-        font-size: 17px;
-    }
-    .exmlebox p {
-        font-family: "Montserrat";
+    .text h4 {
+        padding-top: 35px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
         font-size: 16px;
-        font-weight: 600;
-        padding-left: 23px;
-        color: white;
-        line-height: 43px;
     }
-    button#fourthbtn {
-        width: 187px;
-        font-size: 16px;
-        height: 38px;
+    .imgandtxt img {
+        width: 94px;
     }
-    .textfootbox p {
-        font-weight: 500;
-        line-height: 30px;
-        padding-bottom: 50px;
-        font-size: 14px;
+    .imglasttittle h3 {
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 20px;
     }
-}
 
-/*240px*/
-@media only screen and (max-width: 240px) {
-    a.navbar-brand img {
-        width: 86px;
+    /*formssection end*/
+    /*faq start*/
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s ease-in;
+        margin-bottom: 15px;
     }
-    button.btn.btn-primary.checkbtn {
-        font-size: 8px;
-        font-weight: 600;
-        border: none;
-        padding: 0px 0px;
-        width: 93px;
-        border-radius: 10px 0px;
-        margin-right: -4px;
-        background-image: linear-gradient(to right, #1e75bb, #27a8e0cf);
-        height: 21px;
-        margin-top: 9px;
-        transition: 0.4s;
+    /*faq end*/
+    /*footer start*/
+    .footerimgbox img {
+        width: 154px;
     }
-    button#dropdownMenuButton1 {
+    /*footer end*/
+}
+/*425-576 px*/
+@media only screen and (min-width: 425px) and (max-width: 576px) {
+    .logobox {
+        padding-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .textbox {
+        text-align: center;
+        color: white;
+        margin-right: 0px;
+        padding-top: 35px;
+    }
+    .logobox img {
+        width: 279px;
+        margin-left: 0px;
+    }
+    .textbox h4 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .textbox h2 {
+        font-size: 26px;
+        font-weight: 400;
+    }
+    .textbox p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .headertext p {
+        text-align: center;
+        font-style: italic;
+        font-size: 22px;
+        font-weight: 400;
+        color: white;
+    }
+    .anothertittle p {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .box {
+        padding-bottom: 45px;
+        padding-top: 38px;
+        text-align: center;
+    }
+    .box.box4 {
+        text-align: center;
+    }
+    .box img {
+        width: 180px;
+    }
+    section.formsection {
+        margin-top: -198px;
+    }
+    header#header {
+        background: #314d5e;
+        height: 418px;
+    }
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 303px;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    img.headingimg {
+        width: 301px;
+    }
+    .imgbox h2 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+
+    /*formssection end*/
+    /*faq start*/
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s ease-in;
+        margin-bottom: 15px;
+    }
+    /*faq end*/
+    /*footer start*/
+    .footerimgbox {
+        padding-bottom: 27px;
+    }
+    /*footer end*/
+}
+/*375-425 px*/
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+    .logobox {
+        padding-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .textbox {
+        text-align: center;
+        color: white;
+        margin-right: 0px;
+        padding-top: 40px;
+    }
+    .logobox img {
+        width: 308px;
+        margin-left: 0px;
+    }
+    .headertext p {
+        text-align: center;
+        font-style: italic;
+        font-size: 19px;
+        font-weight: 400;
+        color: white;
+    }
+    .anothertittle p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .box {
+        padding-bottom: 45px;
+        padding-top: 38px;
+        text-align: center;
+    }
+    .box.box4 {
+        text-align: center;
+    }
+    .box img {
+        width: 180px;
+    }
+    section.formsection {
+        margin-top: -197px;
+    }
+    .textbox h4 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .textbox h2 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .textbox p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    header#header {
+        background: #314d5e;
+        height: 430px;
+    }
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 253px;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+    img.headingimg {
+        width: 250px;
+    }
+    .imgbox h2 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+
+    /*formssection end*/
+    /*faq start*/
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s ease-in;
+        margin-bottom: 15px;
+    }
+    /*faq end*/
+    /*footer start*/
+    .footerimgbox {
+        padding-bottom: 27px;
+    }
+    /*footer end*/
+}
+/*320-375 px*/
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .logobox {
+        padding-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .textbox {
+        text-align: center;
+        color: white;
+        margin-right: 0px;
+        padding-top: 40px;
+    }
+    .logobox img {
+        width: 265px;
+        margin-left: 0px;
+    }
+    .headertext p {
+        text-align: center;
+        font-style: italic;
+        font-size: 19px;
+        font-weight: 400;
+        color: white;
+    }
+    .anothertittle p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .box {
+        padding-bottom: 45px;
+        padding-top: 38px;
+        text-align: center;
+    }
+    .box.box4 {
+        text-align: center;
+    }
+    .box img {
+        width: 160px;
+    }
+    section.formsection {
+        margin-top: -197px;
+    }
+    .textbox h4 {
         font-size: 16px;
-        padding-right: 0px;
-        padding-left: 8px;
+        font-weight: 400;
     }
-    button.secondcheckbtn {
+    .textbox h2 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .textbox p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    header#header {
+        background: #314d5e;
+        height: 430px;
+    }
+    /*formssection start*/
+    .fiedgroup.full_width input {
+        width: 229px;
+        height: 52px;
+        margin-bottom: 16px;
+        border-radius: 3px;
+        border: 1px solid #bfbfbf;
+    }
+    .fieldgroup.datediv {
+        margin-left: 17px;
+        margin-right: 1px;
+    }
+    img.headingimg {
+        width: 212px;
+    }
+    .imgbox h2 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+    label {
         font-size: 14px;
-        font-weight: 600;
-        border: none;
-        padding: 0px 8px;
-        width: 158px;
-        border-radius: 20px 0px;
-        height: 32px;
-        transition: 0.4s;
-        background: white;
-        margin-top: 42px;
-        color: #1e75bb;
+        font-weight: 400;
+        padding-bottom: 8px;
     }
+    input,
+    input::-webkit-input-placeholder {
+        font-size: 11px;
+    }
+    .imgbox {
+        padding-left: 0px;
+    }
+    .imgandtxt {
+        margin-right: 0px;
+        display: block;
+        text-align: center;
+    }
+    .text {
+        width: 200px;
+        padding-left: 0px;
+    }
+    .review {
+        margin-top: 1.5em;
+        padding: 20px;
+        background-color: #e6e6e6;
+        border-left: 2px solid #e28e07;
+        margin-right: 0px;
+    }
+
+    /*formssection end*/
+    /*faq start*/
+    .panel {
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s ease-in;
+        margin-bottom: 15px;
+    }
+    .accordion h2 {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .faqtittle h2 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #1f2942;
+        padding-bottom: 11px;
+    }
+
+    /*faq end*/
+    /*footer start*/
+    .footerimgbox {
+        padding-bottom: 27px;
+    }
+    /*footer end*/
 }
